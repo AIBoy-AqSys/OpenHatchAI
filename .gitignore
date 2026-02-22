@@ -1,0 +1,9 @@
+# SSH directory: ignore all contents except placeholder 'empty'
+.ssh/*
+!.ssh/empty
+.log/*
+!.log/empty
+
+.idea/
+.env
+.DS_Store
