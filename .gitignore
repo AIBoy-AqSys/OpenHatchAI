@@ -1,8 +1,10 @@
 # SSH directory: ignore all contents except placeholder 'empty'
 .ssh/*
-!.ssh/empty
+!.ssh/.gitkeep
 .log/*
-!.log/empty
+!.log/.gitkeep
+.secrets/*
+!.secrets/.gitkeep
 
 .idea/
 .env
